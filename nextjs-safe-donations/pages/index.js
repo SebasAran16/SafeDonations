@@ -77,7 +77,7 @@ export default function Home() {
                 <h3>Select Donees</h3>
                 <p>
                   The verified accounts from each Goverment Node will be able to
-                  select the donees depending on the pesons's situations.
+                  select the donees depending on the pesons&apos;s situations.
                 </p>
               </div>
             </div>
