@@ -1,0 +1,43 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--start-final-side-margins);
+  text-align: center;
+}
+
+.doneesContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border: 1px solid gray;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.doneesContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.noDoneeResponses {
+  align-self: center;
+}
+
+/* ENDAOMENT CONTRACT */
+
+#endaoSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#endaomentCauses {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}

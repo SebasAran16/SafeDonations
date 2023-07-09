@@ -1,0 +1,16 @@
+.mainContainer {
+  display: grid;
+  grid-template-rows: 120px 1fr;
+}
+
+#children {
+  grid-area: 2 / 1 / -1 / -1;
+  min-height: 90vh;
+}
+
+@media screen and (min-width: 992px) {
+  .mainContainer {
+    display: grid;
+    grid-template-rows: 140px 1fr;
+  }
+}

@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--start-final-side-margins);
+  align-items: center;
+  justify-items: center;
+}
+
+.mainContainer h1 {
+  margin-bottom: var(--headings-bottom-margin);
+}
+
+.mainContainer h2 {
+  margin-bottom: var(--headings-bottom-margin);
+}
+
+.mainContainer p {
+  margin-bottom: var(--text-margin-bottom);
+}
+
+.mainUList {
+  margin-left: 4%;
+}
+
+.mainUList li {
+  margin-bottom: 1rem;
+}
+
+.secondUList {
+  margin-left: 4%;
+  margin-top: 1rem;
+  list-style-type: decimal;
+}

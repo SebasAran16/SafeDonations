@@ -1,0 +1,290 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.mainContainer section:not(#introSection) {
+  padding: var(--start-final-side-margins);
+  overflow: hidden;
+}
+
+#introSection {
+  background-image: url("/backgrounds/background-medium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 110px 1fr;
+  align-items: center;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 60vh;
+}
+
+#introContent {
+  grid-area: 2 / 1 / -1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+#introContent h2 {
+  margin-bottom: 2rem;
+}
+
+#introContent h4 {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+/* Explanation Container */
+
+#explanationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80vw !important;
+  margin-top: 5%;
+}
+
+#swiper {
+  width: 100% !important;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.backgroundSwipper {
+  z-index: -1 !important;
+}
+
+.protocolAction {
+  align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15%;
+}
+
+.protocolAction h3 {
+  margin-bottom: 0.5rem;
+}
+
+.protocolAction img {
+  margin: 1.5rem 0;
+}
+
+.actionContent {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Test Container */
+
+.testContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.testContainer h3 {
+  margin-bottom: 1rem;
+}
+
+/* Skills Container */
+
+#toolsContainer {
+  margin-top: 1rem;
+}
+
+.skillsBox {
+  display: flex;
+  flex-direction: column;
+  padding: 15% 5% 5% 5%;
+  align-content: center;
+  justify-content: center;
+}
+
+.skill {
+  margin-bottom: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.6rem;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.t1 {
+  background-color: #c6c2ff;
+  background-size: 110px;
+  background-position: top 5px right 30px;
+  background-repeat: no-repeat;
+}
+
+.t2 {
+  background-color: #968a45;
+}
+
+.t3,
+.t5 {
+  background-color: #e3d796;
+}
+
+.t4 {
+  background-color: var(--complementary-color);
+}
+
+.t1,
+.t5 {
+  flex-basis: 30%;
+}
+
+.t2,
+.t3 {
+  flex-basis: 10%;
+}
+
+.t4 {
+  flex-basis: 20%;
+}
+
+.t3,
+.t5 {
+  color: hsl(219, 29%, 14%);
+}
+
+.t3 h2,
+.t5 h2 {
+  color: hsl(217, 19%, 35%);
+}
+
+.personInfoDiv {
+  display: flex;
+  align-content: center;
+  z-index: 2;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.skillContent {
+  flex-grow: 1;
+  z-index: 2;
+  margin: 0 2rem 2rem 2rem;
+}
+
+.skillImg {
+  margin-right: 2rem;
+  border-radius: 50%;
+  border: 2px solid cornflowerblue;
+  width: 2.6rem;
+}
+
+.status {
+  opacity: 50%;
+}
+
+.skillHeading {
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+}
+
+.skillBody {
+  opacity: 70%;
+  padding-right: 0.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* Slides Container */
+
+  #swiper {
+    margin-top: 2rem;
+  }
+
+  .protocolAction {
+    flex-direction: row;
+  }
+
+  .protocolImg {
+    height: 100px;
+    width: 100px;
+  }
+
+  .actionContent {
+    margin-left: 1rem;
+  }
+
+  /* Skills Container */
+  .skillsBox {
+    flex-direction: row;
+    max-width: 1220px;
+    padding: 0px;
+  }
+
+  .skill {
+    margin: 1rem;
+    transition: transform 1s;
+  }
+
+  .skill:hover {
+    transform: scale(1.03);
+    opacity: 0.95;
+  }
+
+  .mainLeft,
+  .top,
+  .bottom {
+    display: flex;
+  }
+
+  .mainLeft {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 80%;
+  }
+
+  .top,
+  .bottom {
+    flex-grow: 1;
+  }
+
+  .bottom {
+    align-items: auto;
+  }
+
+  .t1,
+  .t4 {
+    flex-basis: 75%;
+  }
+
+  .t2,
+  .t3 {
+    flex-basis: 25%;
+  }
+
+  .t5 {
+    flex-basis: 20%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #introSection {
+    min-height: 70vh;
+    grid-template-rows: 150px 1fr;
+  }
+}

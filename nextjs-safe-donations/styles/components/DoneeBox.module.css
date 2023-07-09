@@ -1,0 +1,88 @@
+.doneeContainer a {
+  text-decoration: none;
+}
+
+.doneeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 1rem;
+  background-color: gray;
+  padding: 1rem;
+  transition: opacity 0.7s;
+  width: 300px;
+  height: max-content;
+  margin: 1rem;
+}
+
+.doneeContainer:hover {
+  opacity: 0.88;
+}
+
+.causeRedFlagsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redFlagsContainer {
+  display: flex;
+}
+
+.redFlagImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.redFlagImg:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.donationModal h3 {
+  color: var(--headings-color) !important;
+  font-size: 1.7rem;
+}
+
+.donationModal p {
+  margin-bottom: 1rem;
+}
+
+.donationInput {
+  margin: 2rem 0;
+}
+
+.donateButton {
+  padding: var(--button-padding);
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: #a6a900;
+  transition: transform 1s;
+}
+
+.donateButton:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.doneeItem {
+  margin-bottom: 0.7rem;
+}
+
+.donationModal {
+  width: 100vw !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.donationModal input {
+  width: 80%;
+}

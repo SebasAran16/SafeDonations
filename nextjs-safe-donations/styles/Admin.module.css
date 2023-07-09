@@ -1,0 +1,137 @@
+.mainContainer {
+  padding: var(--start-final-side-margins);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer h2 {
+  margin: 2rem 0;
+}
+
+/* Authenticate Button Styles */
+
+.authenticateButton {
+  width: 50%;
+  padding: 1rem;
+  align-self: center;
+  justify-self: center;
+  border-radius: var(--border-radius);
+  transition: transform 1s;
+}
+
+.authenticateButton:hover {
+  opacity: 0.85;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.hiddenAuthenticateButton {
+  display: none !important;
+}
+
+/* Content Styles */
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.hiddenContentContainer {
+  display: none !important;
+}
+
+/* Donee Info Styling */
+
+.adminInfoContainer {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.imageAndAcc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageAndAcc h3 {
+  margin-top: 1rem;
+}
+
+.adminInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.doneeInfo h2 {
+  margin-bottom: 1rem;
+}
+
+/* Functions grid container Styling */
+
+.functionsGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Donee Requests Container */
+
+.doneeRequestContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.doneeRequests {
+  margin: 2rem 0;
+  border: 1px solid white;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.noRequests {
+  margin: 3rem;
+}
+
+/* RedFlags section styling */
+
+.redFlagSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer {
+  justify-self: center;
+}
+
+/* Eliminate Container Section */
+
+.eliminateContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.doneesToEliminateContainer {
+  margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.noDoneeRemove {
+  margin: 2rem;
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (min-width: 992px) {
+  .imageAndAcc {
+    margin-left: 25%;
+  }
+}
