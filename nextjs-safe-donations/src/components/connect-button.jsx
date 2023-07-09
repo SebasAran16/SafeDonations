@@ -37,7 +37,7 @@ export const ConnectButton = () => {
       const options = {
         clientId:
           process.env.WEB3_CLIENT_ID ||
-          "BMKRPhfrLuD-CSLRNnV7mDzhELvDXRFzkHYX2k8gOsk_VMCqDUAo_a8_8PbmcD_4e1sO7y9q9FPEx1NMiNokloM",
+          "BJWC1HoHqSAsIpg8aH-xtZ4l5csAVvc1Jr55LlRi04iFeX0RaArVavDJDUSoHdi6_omluxrYl4XVoBirXqvblf4",
         web3AuthNetwork: "testnet",
         chainConfig: {
           chainNamespace: CHAIN_NAMESPACES.EIP155,
