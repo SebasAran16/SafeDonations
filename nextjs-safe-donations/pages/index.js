@@ -11,13 +11,13 @@ export default function Home() {
       <section id={styles.introSection}>
         <div id={styles.introContent}>
           <h2>Verifiable, secure, easy and decentralized</h2>
-          <h4>Doners need to verify that help arrives to the right person</h4>
+          <h4>Doners know that help arrives to the right person</h4>
           <br />
           <h4>Making giving go viral</h4>
         </div>
       </section>
       <section id={styles.explanationContainer}>
-        <h2>What doesthis protocol do?</h2>
+        <h2>What does this protocol do?</h2>
         <Swiper
           id={styles.swiper}
           effect="cube"
@@ -40,8 +40,8 @@ export default function Home() {
               <div className={styles.skillContent}>
                 <h3>Donate</h3>
                 <p>
-                  Every person who access our protocol is able to donate to the
-                  selected donees safely in Blockchain with few clicks.
+                  Every person who access our protocol is able to donate to
+                  certified vulnerable donees safely with a few clicks.
                 </p>
               </div>
             </div>
@@ -58,8 +58,7 @@ export default function Home() {
               <div className={styles.skillContent}>
                 <h3>Receive</h3>
                 <p>
-                  Send a From petition to be evaluated and acepted or declined
-                  by governance token holders.
+                  Every certified vulnerable person can benefit from donations.
                 </p>
               </div>
             </div>
@@ -112,8 +111,8 @@ export default function Home() {
               <div className={styles.actionContent}>
                 <h3>Eliminate Donees</h3>
                 <p>
-                  In a similar way, eliminatin petitions can be sent with the
-                  token for admins to review and eliminate a Donee.
+                  New donations to the donees are denied when the valid period
+                  for the vulnerability certificate has passed.
                 </p>
               </div>
             </div>
@@ -171,14 +170,13 @@ export default function Home() {
               <figure className={`${styles.skill} ${styles.t3}`}>
                 <div className={styles.personInfoDiv}>
                   <figcaption className={styles.skillDescription}>
-                    <p className={styles.skillName}>Web3 Libraries</p>
-                    <p className={styles.status}></p>
+                    <p className={styles.skillName}>Endaoment</p>
+                    <p className={styles.status}>Tool</p>
                   </figcaption>
                 </div>
                 <blockquote className={styles.skillContent}>
                   <p className={styles.skillBody}>
-                    Tools such as EthersJs, Moralis, Web3UIKit is a needed
-                    knowledge.
+                    Expanding the possibilities for donations.
                   </p>
                 </blockquote>
               </figure>
