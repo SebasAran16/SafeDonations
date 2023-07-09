@@ -8,7 +8,7 @@ export const AppsLayout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Defi Donate Protocol</title>
+        <title>Safe Donations</title>
         <meta
           name="description"
           content="Protocol to make easy and decentralized donations."
